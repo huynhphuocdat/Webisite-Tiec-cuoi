@@ -1,0 +1,127 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  
+  html{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+
+
+.btn-outline-success1{
+    color:#F64130;
+    border-color: #F64130;
+  }
+  
+.btn-outline-success1:hover{
+      color: #fff;
+      background-color: #F64130;
+      border-color: #F64130;
+  }
+  
+.dropdown-menu-dark{
+    background-color: #0D0E0F;
+  }
+.header span{
+      color: #feb3a0;
+  }
+  
+  
+.btn-info1{
+  background-color: #F64130;
+  color: white;
+}  
+
+.btn-info1:hover{
+  color: #0D0E0F;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.line{
+  text-align: center;
+  position: relative;
+}
+
+.line:after{
+  content: "";
+  width: 50%;
+  height: 1px;
+  background-color: #F64128;
+  position: absolute;
+  left: 0;
+
+}
+
+.line1{
+  text-align: center;
+  position: relative;
+}
+
+.line1:after{
+  content: "";
+  width: 50%;
+  height: 1px;
+  background-color: #F64128;
+  position: absolute;
+  right: 0;
+
+}
+
+.font-gg{
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Imperial Script', cursive;
+  font-family: 'Roboto', sans-serif;
+}
+
+.font-gg-header{
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Imperial Script', cursive;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Special Elite', cursive;
+}
+
+.font-gg-home{
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Imperial Script', cursive;
+  font-family: 'Merienda', cursive;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Special Elite', cursive;
+}
+
+.my-41{
+  margin-top: 1.5rem!important;
+}
+
+.btn-primary1{
+    background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516);
+    box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
+    color: white;
+}
+
+
+.zoom {
+    border-bottom: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+    display: block;
+    overflow: hidden;
+    background: #fff;
+}
+.zoom:hover img{
+	-webkit-transform:scale(1.1);
+	transform:scale(1.1);
+}
+.zoom img{
+	width:100%;
+	-webkit-transition:all 0.3s ease-out 0s;
+	transition:all 0.3s ease-out 0s;
+}
+
+
